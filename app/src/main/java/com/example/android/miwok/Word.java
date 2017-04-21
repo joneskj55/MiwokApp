@@ -34,6 +34,7 @@ public class Word {
         return mImageResourceId;
     }
 
+    // Check weather or not the word has an associated image
     public boolean hasImage() {
         return mImageResourceId != NO_IMAGE_PROVIDED;
     }
